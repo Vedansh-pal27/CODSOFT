@@ -69,6 +69,7 @@ public class task3 {
             }
             else if (choice == 4) {
                 exit = true;
+                System.out.println(" log out successfully... Thank you... ") ;
             } else {
                 System.out.println("Your current balance is: " + atm.checkBalance());
                 break;
